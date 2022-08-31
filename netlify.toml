@@ -5,3 +5,6 @@
 [build]
   publish = "dist"
   command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
+
+[[plugins]]
+  package = "./plugins/pnpm-preinstaller"
