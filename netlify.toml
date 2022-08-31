@@ -8,4 +8,5 @@
 
 [[plugins]]
   package = "./plugins/pnpm-preinstaller"
+[[plugins]]
   package = "netlify-plugin-cache-folder"
